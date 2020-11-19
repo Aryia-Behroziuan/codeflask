@@ -1,0 +1,136 @@
+<html>
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width">
+          <title>CodeFlask</title>
+          <meta name="description">
+          <meta name="keywords">
+      
+          <link href="http://www.tahlildadeh.com/cssgenerator/Content/reset.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/site.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/Bootstrap.FontAwsome.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/font-awesome.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/rangeSlider.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/roundslider.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/bootstrap-colorpicker.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/MyCss.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/mediaQ.css" rel="stylesheet">
+      
+          <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/modernizr-2.6.2.js"></script>
+      
+          <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/jquery-2.2.1.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/jQuery.Bootstrap.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/rangeSlider.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/roundslider.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/bootstrap-colorpicker.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/myJs.js"></script>
+      <style>
+          body
+          {
+               background-image: url('Config image/fox.jpg');no-repeat center fixed;
+               background-size:cover;
+               background-repeat: no-repeat;
+               width: 100%;
+               height: 100%;
+               overflow: hidden;
+              
+          }
+     </style>
+     </head>
+     <body dir="ltr" lang="en">
+        <h1 style="float: left; margin-top: -40px; margin-left: 20px; color: white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">CodeFlask<a href="Content.html" style="font-size: 23px; color: white;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBox Shadow</a><a href="Content1.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspText Shadow</a><a href="Content2.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspBorder Radius</a><a href="Content3.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspGeradients</a><a href="Content4.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspButton Generator</a></h1>
+           
+           
+                  
+           <script>
+               $(function () {
+                   setMenu('mTextShadow');
+               }, jQuery);
+           
+           </script>
+               
+           
+           <div class="containerbody ">
+               <div style="background-color:rgba(255, 255, 255, 0); margin-top: 20px;border: none;" class="menuR col-lg-2 col-md-12 col-sm-12 col-xs-12 pull-right">
+                   <div class="row">
+                       <label for="">Horizontal:</label>
+                   </div>
+                   <div class="row">
+                       <div>
+                           <input id="h" type="range" min="-75" max="75" step="0.1" value="6" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-0"><div class="rangeSlider__handle" style="left: 351px;"></div><div class="rangeSlider__fill" style="width: 366px;"></div><div class="rangeSlider__buffer"></div></div>
+                           <input type="number" class="rChange" id="ch" min="-75" max="75" step="0.1" data-id="#h" value="6">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <label for="">Vertical:</label>
+                   </div>
+                   <div class="row">
+                       <div>
+                           <input id="v" type="range" min="-75" max="75" step="0.1" value="-6" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-1"><div class="rangeSlider__handle" style="left: 299px;"></div><div class="rangeSlider__fill" style="width: 314px;"></div><div class="rangeSlider__buffer"></div></div>
+                           <input type="number" class="rChange" id="cv" min="-75" max="75" step="0.1" data-id="#v" value="-6">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <label for="">I was confused:</label>
+                   </div>
+                   <div class="row">
+                       <div>
+                           <input id="b" type="range" min="0" max="30" step="0.1" value="10" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-2"><div class="rangeSlider__handle" style="left: 216.667px;"></div><div class="rangeSlider__fill" style="width: 231.667px;"></div><div class="rangeSlider__buffer"></div></div>
+                           <input type="number" class="rChange" id="cb" min="0" max="30" step="0.1" data-id="#b" value="10">
+                       </div>
+                   </div>
+           
+                   <div class="row">
+                       <label for="">Color:</label>
+                   </div>
+           
+                   <div class="row input-group color-options colorpicker-element">
+                       <input type="text" id="c" value="#2d2929" class="form-control">
+                       <span class="input-group-addon"><i style="background-color: rgb(45, 41, 41);"></i></span>
+                   </div>
+           
+               </div>
+           
+               <div class="col-lg-10 col-md-11 col-sm-11 col-xs-11  pull-left resultFix">
+           
+                   <div class="viewOn text-center">
+                       <h3 class="textShadowView" style="text-shadow: 6px -6px 10px #2d2929;">Look me your text, No Images!</h3>
+           
+                   </div>
+                   <style>
+                       .dvResult {
+                           position: relative;
+                       }
+           
+                       .copy-text {
+                           position: absolute;
+                           right: 0;
+                           top: 0;
+                           padding: 3px;
+                           background-color: rgba(255, 255, 255, .5);
+                           border: 1px solid white;
+                           color: #696969;
+                           cursor: pointer;
+                       }
+                   </style>
+                   <div style=""class="result alert alert-danger col-lg-7 col-md-11 col-sm-11 col-xs-11 dvResult"><a class="copy-text">Copy</a>text-shadow: 6px -6px 10px #2d2929;<br></div>
+               </div>
+           
+               </div>
+           <script>
+               function copyToClipboard() {
+                   var element = $(".result");
+                   var $temp = $("<input>");
+                   $("body").append($temp);
+                   $temp.val($(element).text().substr(4, $(element).text().length)).select();
+                   document.execCommand("copy");
+                   $temp.remove();
+               }
+               $(document.body).delegate(".copy-text", "click", function () {
+                   copyToClipboard();
+               })
+               runPluging('textShadow');
+           </script><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(45, 41, 41);"><i style="top: 82.3529px; left: 8.88889px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(45, 41, 41);"><i style="top: 0px;"></i></div><div class="colorpicker-color" style="background-color: rgb(45, 41, 41);"><div style="background-color: rgb(45, 41, 41);"></div></div><div class="colorpicker-selectors"></div></div>
+           
+     </body>
+</html>

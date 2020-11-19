@@ -1,0 +1,457 @@
+<html>
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width">
+          <title></title>
+          <meta name="description">
+          <meta name="keywords">
+      
+          <link href="http://www.tahlildadeh.com/cssgenerator/Content/reset.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/site.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/Bootstrap.FontAwsome.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/font-awesome.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/rangeSlider.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/roundslider.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/bootstrap-colorpicker.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/MyCss.css" rel="stylesheet">
+      <link href="http://www.tahlildadeh.com/cssgenerator/Content/mediaQ.css" rel="stylesheet">
+      
+          <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/modernizr-2.6.2.js"></script>
+      
+          <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/jquery-2.2.1.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/jQuery.Bootstrap.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/rangeSlider.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/roundslider.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/bootstrap-colorpicker.js"></script>
+      <script src="http://www.tahlildadeh.com/cssgenerator/Scripts/myJs.js"></script>
+      <style>
+          body
+          {
+               background-color: rgb(35, 36, 53);
+              
+          }
+          </style>
+      
+     </head>
+     <body dir="rtl" lang="fa">
+          <h1 style="float: left; margin-top: -40px; margin-left: 20px; color: white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">CodeFlask<a href="Content.html" style="font-size: 23px; color: white;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBox Shadow</a><a href="Content1.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspText Shadow</a><a href="Content2.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspBorder Radius</a><a href="Content3.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspGeradients</a><a href="Content4.html" style="font-size: 23px;color: white;">&nbsp&nbsp&nbsp&nbspButton Generator</a></h1>
+          
+          
+                 
+          <script>
+              $(function () {
+                  setMenu('mButtonGenerator');
+              }, jQuery);
+          
+          </script>
+              
+          <div class="containerbody ">
+            
+              <div style="background-color:rgba(255, 255, 255, 0); margin-top: -20px;border: none;" class="menuR col-lg-2 col-md-12 col-sm-12 col-xs-12 mL pull-right" style="height: 1397px;">
+                  <section id="baseSetting">
+                      <div class="hed">
+                          تنظیمات پایه
+                      </div>
+          
+                      <div class="row">
+                          <label for="">متن :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input type="text" class="rChange textchng" id="ctext" value="Click">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">اندازه فونت :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="fonts" type="range" min="1" max="100" step="1" value="13" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-0"><div class="rangeSlider__handle" style="left: 81.2121px;"></div><div class="rangeSlider__fill" style="width: 96.2121px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" id="cfonts" min="1" max="100" step="1" data-id="#fonts" value="13">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">حاشیه خالی :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="padding" type="range" min="1" max="100" step="1" value="10" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-1"><div class="rangeSlider__handle" style="left: 60.9091px;"></div><div class="rangeSlider__fill" style="width: 75.9091px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" id="cpadding" min="1" max="100" step="1" data-id="#padding" value="10">
+                          </div>
+                      </div>
+          
+          
+                      <hr>
+                      <div class="row">
+                          <label for="">گوشه دار کردن همه :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="allCorner" type="range" min="0" max="200" step="1" value="3" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-2"><div class="rangeSlider__handle" style="left: 10.05px;"></div><div class="rangeSlider__fill" style="width: 25.05px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="callCorner" min="0" max="200" step="1" data-id="#allCorner" value="3">
+                          </div>
+                      </div>
+          
+                      <hr>
+                      <div class="row">
+                          <label for="">گوشه بالا چپ :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="TL" type="range" min="0" class="bord" max="200" step="1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-3"><div class="rangeSlider__handle" style="left: 10.05px;"></div><div class="rangeSlider__fill" style="width: 25.05px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="bord" id="cTL" min="0" max="200" step="1" data-id="#TL" value="0">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">گوشه بالا راست :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="TR" type="range" min="0" class="bord" max="200" step="1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-4"><div class="rangeSlider__handle" style="left: 10.05px;"></div><div class="rangeSlider__fill" style="width: 25.05px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="bord" id="cTR" min="0" max="200" step="1" data-id="#TR" value="10">
+                          </div>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">گوشه پایین چپ :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="BL" type="range" min="0" class="bord" max="200" step="1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-5"><div class="rangeSlider__handle" style="left: 10.05px;"></div><div class="rangeSlider__fill" style="width: 25.05px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="bord" id="cBL" min="0" max="200" step="1" data-id="#BL" value="0">
+                          </div>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">گوشه پایین راست :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="BR" type="range" min="0" class="bord" max="200" step="1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-6"><div class="rangeSlider__handle" style="left: 10.05px;"></div><div class="rangeSlider__fill" style="width: 25.05px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="bord" id="cBR" min="0" max="200" step="1" data-id="#BR" value="0">
+                          </div>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">طول حاشیه :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="BW" type="range" min="0" max="200" step="1" value="1" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-7"><div class="rangeSlider__handle" style="left: 3.35px;"></div><div class="rangeSlider__fill" style="width: 18.35px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="cBW" min="0" max="200" step="1" data-id="#BW" value="1">
+                          </div>
+                      </div>
+          
+                      <hr>
+                      <div class="row">
+                          <label for="">نوع خط حاشیه :</label>
+                      </div>
+                      <div class="row">
+                          <select id="select-border">
+                              <option value="solid">solid</option>
+                              <option value="dotted">dotted</option>
+                              <option value="dashed">dashed</option>
+                              <option value="double">double</option>
+                              <option value="groove">groove</option>
+                              <option value="ridge">ridge</option>
+                              <option value="inset">inset</option>
+                              <option value="outset">outset</option>
+                              <option value="inherit">inherit</option>
+                              <option value="hidden">hidden</option>
+                              <option value="none">none</option>
+                          </select>
+                      </div>
+          
+          
+                      <div class="row">
+                          <label for="">رنگ خط حاشیه :</label>
+                      </div>
+          
+                      <div class="row input-group color-options colorpicker-element">
+                          <input type="text" id="borderc" value="transparent" class="form-control">
+                          <span class="input-group-addon"><i style="background-color: rgba(0, 0, 0, 0);"></i></span>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">رنگ متن :</label>
+                      </div>
+          
+                      <div class="row input-group color-options colortxt colorpicker-element">
+                          <input type="text" id="textc" value="#444444" class="form-control">
+                          <span class="input-group-addon"><i style="background-color: rgb(68, 68, 68);"></i></span>
+                      </div>
+          
+                  </section>
+              </div>
+          
+              <div style="background-color:rgba(255, 255, 255, 0); margin-top: -20px;border: none;" class="menuR col-lg-2 col-md-12 col-sm-12 col-xs-12 pull-left mR">
+                  <section id="Background">
+          
+                      <div class="hed">
+                          تنظیمات پس زمینه
+                      </div>
+                      <div class="row">
+                          <label for="">زاویه :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <div class="control">
+                                  <div id="angel" class="rs-control rs-animation" style="height: 170px; width: 170px;"><div class="rs-container full" style="height: 170px; width: 170px;"><div class="rs-inner-container"><div class="rs-block rs-outer rs-border rs-split"><div class="rs-path rs-transition rs-range-color" style="transform: rotate(180deg);"></div><div class="rs-path rs-transition rs-range-color" style="opacity: 0; transform: rotate(0deg);"></div><div class="rs-path rs-transition rs-path-color" style="opacity: 1; transform: rotate(180deg);"></div><div class="rs-path rs-transition rs-path-color" style="opacity: 1; z-index: 1; transform: rotate(0deg);"></div><span class="rs-block" style="padding: 18px;"><div class="rs-inner rs-bg-color rs-border"></div></span></div></div><div class="rs-bar rs-transition rs-first" style="z-index: 7; transform: rotate(180deg);"><div class="rs-handle rs-move" index="2" tabindex="0" role="slider" aria-label="angel_handle" style="height: 18px; width: 18px; margin: -9px 0px 0px 1px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="360"></div></div><span class="rs-bar rs-transition rs-start" style="transform: rotate(180deg);"><span class="rs-seperator rs-border" style="width: 20px; margin-top: -0.5px;"></span></span><span class="rs-bar rs-transition rs-end" style="transform: rotate(540deg);"><span class="rs-seperator rs-border" style="width: 20px; margin-top: -0.5px;"></span></span><span class="rs-tooltip rs-tooltip-text edit" style="margin-top: -15px; margin-left: -13px;">0</span></div><input type="hidden" name="angel" value="0"></div>
+                              </div>
+                              <input type="number" class="rChange" id="cangel" min="0" max="360" step="1" data-id="#angel" value="0">
+                          </div>
+                      </div>
+          
+          
+                      <div class="row">
+                          <label for="">شروع :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="start" type="range" min="0" max="100" step="1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-8"><div class="rangeSlider__handle" style="left: 0px;"></div><div class="rangeSlider__fill" style="width: 15px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" id="cstart" min="0" max="100" step="1" data-id="#start" value="0">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">خاتمه :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="end" type="range" min="0" max="100" step="1" value="50" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-9"><div class="rangeSlider__handle" style="left: 335px;"></div><div class="rangeSlider__fill" style="width: 350px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" id="cend" min="0" max="100" step="1" data-id="#end" value="0">
+                          </div>
+                      </div>
+          
+          
+          
+          
+                      <div class="row">
+                          <label for="">رنگ شروع :</label>
+                      </div>
+          
+                      <div class="row input-group color-options bgc colorpicker-element">
+                          <input type="text" id="sbgc" value="#ffffff" class="form-control">
+                          <span class="input-group-addon"><i style="background-color: rgb(255, 255, 255);"></i></span>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">رنگ خاتمه :</label>
+                      </div>
+          
+                      <div class="row input-group color-options bgc colorpicker-element">
+                          <input type="text" id="ebgc" value="#ffffff" class="form-control">
+                          <span class="input-group-addon"><i style="background-color: rgb(255, 255, 255);"></i></span>
+                      </div>
+                  </section>
+          
+                  <section id="shadow">
+          
+                      <div class="hed">
+                          تنظیمات سایه
+                      </div>
+                      <div class="row">
+                          <label for="">افقی :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="h" type="range" min="-75" max="75" step="0.1" value="1" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-10"><div class="rangeSlider__handle" style="left: 339.467px;"></div><div class="rangeSlider__fill" style="width: 354.467px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="ch" min="-75" max="75" step="0.1" data-id="#h" value="1">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">عمودی :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="v" type="range" min="-75" max="75" step="0.1" value="1" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-11"><div class="rangeSlider__handle" style="left: 339.467px;"></div><div class="rangeSlider__fill" style="width: 354.467px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="cv" min="-75" max="75" step="0.1" data-id="#v" value="1">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">محو کردن :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="b" type="range" min="0" max="30" step="0.1" value="4" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-12"><div class="rangeSlider__handle" style="left: 89.3333px;"></div><div class="rangeSlider__fill" style="width: 104.333px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="cb" min="0" max="30" step="0.1" data-id="#b" value="4">
+                          </div>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">رنگ سایه :</label>
+                      </div>
+          
+                      <div class="row  input-group color-options colorpicker-element">
+                          <input type="text" id="shadowc" value="rgba(0, 0, 0, 0.4)" class="form-control">
+                          <span class="input-group-addon"><i style="background-color: rgba(0, 0, 0, 0.4);"></i></span>
+                      </div>
+                  </section>
+                  <section id="textshadow">
+          
+                      <div class="hed">
+                          تنظیمات سایه متن
+                      </div>
+                      <div class="row">
+                          <label for="">افقی :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="txth" type="range" min="-75" max="75" step="0.1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-13"><div class="rangeSlider__handle" style="left: 335px;"></div><div class="rangeSlider__fill" style="width: 350px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="ctxth" min="-75" max="75" step="0.1" data-id="#txth" value="0">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">عمودی :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="txtv" type="range" min="-75" max="75" step="0.1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-14"><div class="rangeSlider__handle" style="left: 335px;"></div><div class="rangeSlider__fill" style="width: 350px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="ctxtv" min="-75" max="75" step="0.1" data-id="#txtv" value="0">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <label for="">محو کردن :</label>
+                      </div>
+                      <div class="row">
+                          <div>
+                              <input id="txtb" type="range" min="0" max="30" step="0.1" value="0" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeSlider" id="js-rangeSlider-15"><div class="rangeSlider__handle" style="left: 0px;"></div><div class="rangeSlider__fill" style="width: 15px;"></div><div class="rangeSlider__buffer"></div></div>
+                              <input type="number" class="rChange" id="ctxtb" min="0" max="30" step="0.1" data-id="#txtb" value="0">
+                          </div>
+                      </div>
+          
+                      <div class="row">
+                          <label for="">رنگ سایه :</label>
+                      </div>
+          
+                      <div class="row  input-group color-options colorpicker-element">
+                          <input type="text" id="shadowtextc" value="#2d2929" class="form-control">
+                          <span class="input-group-addon"><i style="background-color: rgb(45, 41, 41);"></i></span>
+                      </div>
+                  </section>
+          
+              </div>
+          
+            
+          
+              <div class="col-lg-8 col-md-11 col-sm-11 col-xs-11  resultbtn " style="position: relative; left: auto;">
+          
+                  <div class="viewOn text-center">
+                      <a href="#" class="button btn btn-default" style="font-size: 13px;padding: 10px;color: #444444;border-radius: 3px 3px 3px 3px;-moz-border-radius: 3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;border: 1px solid rgba(0,0,0,0);-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.4);-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.4);box-shadow: 1px 1px 4px rgba(0,0,0,0.4);text-shadow: 0px 0px 0px #2d2929;background: #ffffff;background: -moz-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);background: -webkit-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);background: -o-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);background: -ms-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%);">Click</a>
+          
+                  </div>
+                  <div>
+                      <p class="text-center">
+                          <a href="#" class="btn btn-default loadbtn">default</a>
+                          <a href="#" class="btn btn-primary loadbtn">primary</a>
+                          <a href="#" class="btn btn-success loadbtn">success</a>
+                          <a href="#" class="btn btn-info loadbtn">info</a>
+                          <a href="#" class="btn btn-warning loadbtn">warning</a>
+                          <a href="#" class="btn btn-danger loadbtn">danger</a>
+                      </p>
+                  </div>
+          
+          
+                  <style>
+                      .dvResult {
+                          position: relative;
+                      }
+          
+                      .copy-text {
+                          position: absolute;
+                          right: 0;
+                          top: 0;
+                          padding: 3px;
+                          background-color: rgba(255, 255, 255, .5);
+                          border: 1px solid white;
+                          color: #696969;
+                          cursor: pointer;
+                      }
+                  </style>
+          
+                  <div class="result alert alert-danger col-lg-7 col-md-11 col-sm-11 col-xs-11 dvResult">
+                      <a class="copy-text">Copy</a>
+          
+          
+                      <span>//Html Code</span>
+                      <br>
+                    
+                         
+                          <p class="resultHtml">&lt;a href="#" class="button"&gt;Click&lt;/a&gt;</p>
+               
+          
+          
+                      <div class="resultcss">.button {<br>font-size: 13px;<br>padding: 10px;<br>color: #444444;<br>border-radius: 3px 3px 3px 3px;<br>-moz-border-radius: 3px 3px 3px 3px;<br>-webkit-border-radius:3px 3px 3px 3px;<br>border: 1px solid rgba(0,0,0,0);<br>-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.4);<br>-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.4);<br>box-shadow: 1px 1px 4px rgba(0,0,0,0.4);<br>text-shadow: 0px 0px 0px #2d2929;<br>background: #ffffff;<br>background: -moz-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);<br>background: -webkit-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);<br>background: -o-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);<br>background: -ms-linear-gradient(0deg, #ffffff 0%, #ffffff 50%);<br>background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%);<br>}</div>
+          
+                  </div>
+          
+              </div>
+          
+            
+          
+              </div>
+          
+          
+          <script>
+              function copyToClipboard() {
+                  var element1 = $(".resultHtml");
+                  var element2 = $(".resultcss");
+                  var $temp = $("<input>");
+                  $("body").append($temp);
+                  $temp.val($(element1).text() +"<style> "+ $(element2).text()+" </style>").select();
+                  document.execCommand("copy");
+                  $temp.remove();
+              }
+              $(document.body).delegate(".copy-text", "click", function () {
+                  copyToClipboard();
+              })
+              btngen();
+              borderRadius('buttonGen');
+              geradient('buttonGen');
+              runPluging('buttonGen');
+              loadbtnFromCss();
+          
+              function fixsize() {
+          
+                  var getHegight = $(".mL").height();
+                  var getHegightR = $(".mR").height();
+                  if (getHegightR < getHegight) {
+                      $(".mR").height(getHegight);
+                  } else
+                      $(".mL").height(getHegightR);
+              };
+          
+              $(window).resize(function(){
+                  if ($(window).width() >= 1199){	
+                      fixsize();
+                      $(".resultbtn").css("position", "fixed");
+                      $(".resultbtn").css("left", "222px");
+                  } else {
+                      $(".resultbtn").css("position", "relative");
+                      $(".resultbtn").css("left", "auto");
+                  }
+              });
+               
+              if ($(window).width() >= 1199) {
+                  fixsize();
+                  $(".resultbtn").css("position", "fixed");
+                  $(".resultbtn").css("left", "222px");
+          
+              }
+              else {
+                  $(".resultbtn").css("position", "relative");
+                  $(".resultbtn").css("left", "auto");
+          
+              }
+          
+          
+          </script><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(0, 0, 0);"><i style="top: 100px; left: 0px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: transparent;"><i style="top: 100px;"></i></div><div class="colorpicker-color" style="background-color: rgba(0, 0, 0, 0);"><div style="background-color: rgba(0, 0, 0, 0);"></div></div><div class="colorpicker-selectors"></div></div><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(68, 68, 68);"><i style="top: 73.3333px; left: 0px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(68, 68, 68);"><i style="top: 0px;"></i></div><div class="colorpicker-color" style="background-color: rgb(68, 68, 68);"><div style="background-color: rgb(68, 68, 68);"></div></div><div class="colorpicker-selectors"></div></div><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(255, 255, 255);"><i style="top: 0px; left: 0px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(255, 255, 255);"><i style="top: 0px;"></i></div><div class="colorpicker-color" style="background-color: rgb(255, 255, 255);"><div style="background-color: rgb(255, 255, 255);"></div></div><div class="colorpicker-selectors"></div></div><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(255, 255, 255);"><i style="top: 0px; left: 0px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(255, 255, 255);"><i style="top: 0px;"></i></div><div class="colorpicker-color" style="background-color: rgb(255, 255, 255);"><div style="background-color: rgb(255, 255, 255);"></div></div><div class="colorpicker-selectors"></div></div><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(0, 0, 0);"><i style="top: 100px; left: 0px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(0, 0, 0);"><i style="top: 60px;"></i></div><div class="colorpicker-color" style="background-color: rgba(0, 0, 0, 0.4);"><div style="background-color: rgba(0, 0, 0, 0.4);"></div></div><div class="colorpicker-selectors"></div></div><div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(45, 41, 41);"><i style="top: 82.3529px; left: 8.88889px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(45, 41, 41);"><i style="top: 0px;"></i></div><div class="colorpicker-color" style="background-color: rgb(45, 41, 41);"><div style="background-color: rgb(45, 41, 41);"></div></div><div class="colorpicker-selectors"></div></div>
+          
+          
+              
+              
+          
+          
+          
+          
+     </body>
+</html>
